@@ -2,7 +2,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+    margin-bottom: 40px;
+}
+.judul_navbar {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #dcdcdc;
 }
 .kontainer_produk {
     width: 100%;
@@ -11,24 +21,39 @@
 .kontainer_flex {
     
     margin: auto;
-    width: 80%;
+    width: 70%;
     padding: auto;
-    padding: 50px;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     background-color: azure;
+    border-radius: 20px;
+    border: 1px solid #dcdcdc;
+
+}
+.kontainer_flex img {
+    border-radius: 20px;
 }
 .kontainer_flex img {
     width: 60%;
     margin: 20px;
 }
 .penjelesan_kamar_hotel p {
-    max-width: 400px;
+    max-width: 500px;
     min-width: 300px;
     font-size: 20px;
     margin-top: 50px;
+    border: 1px solid #dcdcdc;
+    padding: 20px;
+    border-radius: 20px;
+}
+.penjelesan_kamar_hotel h3 {
+    color: rgb(255, 193, 7);
+    padding: 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 20px;
 }
 .beli {
     margin-top: 50px;
@@ -44,8 +69,13 @@
     margin-right: 30px;
 }
 .container_keunggulan {
-    margin-top: 50px;
+    margin-top: 100px;
     width: 100%;
+}
+.container_keunggulan header h2 {
+    background-color: rgb(2, 230, 230);
+    border: 1px solid #dcdcdc;
+    
 }
 .testimoni_flex {
     display: flex;
@@ -59,20 +89,26 @@
     margin: auto;
     text-align: center;
 }
+.card {
+    margin-bottom: 20px;
+}
 .container_footer {
     margin-top: 50px;
     background-color: teal;
 }
 .footer_flex {
     width: 100%;
-    display: flex;
-    justify-content: space-evenly;
+    
     padding: 20px;
+}
+.footer_items_logo {
+    color: rgb(255, 193, 7);
+
 }
 
 .footer_items_teks {
     width: 400px;
-    text-align: right;
+    text-align: center;
 }
 .footer_items_teks p {
     color: white;
@@ -83,4 +119,29 @@
     color: white;
     font-size: 20px;
     margin-top: 20px;
+}
+.social-list {
+  margin: auto;
+  width: 90%;
+  /* display: flex; */
+  gap: 15px;
+  /* flex-wrap: wrap; */
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+.social-item {
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+  padding: 0px 15px;
+  /* display: flex;
+  align-items: center; */
+  gap: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+}
+.social-list h4 {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
 }
